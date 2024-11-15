@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+ background-color:#0a0a0a;
+ color:rgb(215, 215, 218);
+ font-style: italic;
+}
+
+.nav{
+  display:flex  ;
+  justify-content:space-between;
+  margin: 29px;
+  padding: 2px;
+
+}
+.logo h1{
+  font-size: 28px;
+  font-style: italic;
+  color:rgb(246, 156, 124);
+  padding-top:12px;
+}
+
+
+.link{
+  color:#ededed;
+  text-decoration: none;
+}
+.link:hover{
+    color:rgb(206, 18, 18)
+}
+.bt:hover{
+ color:black;
+ font-display:inherit;
+ background-color:azure;
+
+}
+ul{
+  display: flex;
+  gap: 34px;
+  list-style: none;
+  font-size: 22px;
+}
+.btn{
+  padding: 11px;
+}
+.bt{
+  padding: 4px;
+  font-size:23px;
+  margin: 2px;
+  background-color:rgb(223, 148, 120);
+  border:0cqb;
+  color:#ededed;
+}
+.hero{
+  display:flex;
+  margin-left: 79px;
+  font-size: 30px;
+  padding:40px;
+}
+.infor-div{
+ margin-left: 60px;
+}
+.heading{
+  font-size: 40px;
+  color:coral;
+  text-align: center;
+}
+p{
+  text-align: center;
+  color:rgb(242, 146, 111);
+}
+
+.img2{
+  margin: 40px;
+  border-radius: 20%;
+  margin-left: 42%;
+}
+
+.bt2{
+  margin: 34px;
+  color:rgb(211, 128, 97);
+  font-size:50px;
+  margin-top: 3px;
+}
+
+.bt3:hover{
+  color: #0a0a0a;
+  background-color: #ffffff;
+  font-display: inherit;
+  font-size: 40px;
+  padding-left: 5px;
+}
+.icons{
+  font-size: 32px;
+  margin-left: 100px;
+  justify-content: center;
+
+}
+
+h2{
+  font-size: 34px;
+  text-align: left;
+  color:rgb(255, 249, 246);
+  padding: 50px;
+  margin: 2px;
+}
+
+.icon{
+  font-size: 50px;
+  color: rgb(255, 106, 0);
+  gap:30px;
+  margin: 45px;
+}
+.icon1{
+  font-size: 50px;
+  color:rgb(241, 245, 2);
+  margin: 50px;
+
+}
+.icon2{
+  font-size: 50px;
+  color:mediumblue;
+  gap: 90px;
+  margin:45px;
+}
+.icon3{
+  font-size: 50px;
+  color:yellow;
+  margin: 45px;
+  gap:30px;
+}
+.icon4{
+  font-size: 55px;
+  margin: 45px;
+  gap:30px;
+  color:#ffffff;
+  background-color: black;
+}
+
+
+
+  .bt4:hover{
+    color:black;
+    font-display:inherit;
+    background-color:rgb(127, 127, 127);
+}
+
+.project{
+  display: flex;
+  margin: 36px;
+  
+}
+.pro-h2{
+  font-size: 36px;
+  text-align: left;
+  margin: 20px;
+}
+
+.pro-p{
+  font-size: 20px;
+  text-align: left;
+  margin: 
+  21px;
+}
